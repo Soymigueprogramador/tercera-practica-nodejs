@@ -1,0 +1,22 @@
+{
+  "name": "tercer-practica-nodejs",
+  "version": "1.0.0",
+  "description": "Este es un pequeño proyecto en Node.js para ir retomando el backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "author": "Miguel Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
